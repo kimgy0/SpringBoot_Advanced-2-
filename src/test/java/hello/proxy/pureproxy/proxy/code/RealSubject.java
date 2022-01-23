@@ -8,7 +8,7 @@ public class RealSubject implements Subject{
     @Override
     public String operation() {
         log.info("실제 객체 호출");
-        sleep(1000);
+        sleep(1000); //데이터 조회시 1초가 걸린다고 가정.
         return "data";
     }
 
